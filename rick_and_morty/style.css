@@ -1,0 +1,105 @@
+.container-nav{
+    background-color: #04AA6D;
+}
+
+#tittle{
+    font-family: monospace;
+    text-align: start;
+    color: #316759;
+}
+
+.menuP nav ul li {
+    font-size: 25;  
+}
+body{
+    background-color: #F1FFAA;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23daee89' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23c3dd68' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23abcc48' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%2394bb27' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%237DAA06' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #021d34;
+    font-family: monospace;
+
+}
+
+a:hover{
+    color: #B39CFD;
+}
+
+li{
+    list-style:none;
+}
+
+#lista:hover p{
+    color: #9ACDAF ;
+}
+
+#lista img{
+    display:none;
+}
+
+#lista:hover img{
+    display: block;
+}
+
+/* .btn{
+    background-color: aqua;
+} */
+.card{
+    border-color: transparent;
+    text-align: center;
+}
+.card:hover{
+    background-color: #DAF7A6;
+    color:black;
+    border-color: transparent;
+}
+
+.menu{
+    margin-top: 12px;
+}
+
+.alinear-Titt h3, 
+.alinear-Titt h4{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#foot{
+    background-color: rgb(247, 247, 247);
+}
+
+.navbar{
+    background-color: rgb(247, 247, 247);
+}
+
+footer{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+
+footer div{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+
+/* .cont-impr{
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+
+.Imprimir{
+    display: flex;
+} */
+
+
+
+

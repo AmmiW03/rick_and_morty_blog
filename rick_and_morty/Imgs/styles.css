@@ -1,0 +1,48 @@
+.container-nav{
+    background-color: #04AA6D;
+}
+
+#tittle{
+    font-family: monospace;
+    text-align: start;
+}
+
+.menuP nav ul li {
+    font-size: 25;  
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+}
+li{
+    list-style:none;
+}
+
+#lista:hover p{
+    color: #9ACDAF ;
+}
+
+#lista img{
+    display:none;
+}
+
+#lista:hover img{
+    display: block;
+}
+
+.menu{
+    margin-top: 12px;
+}
+
+
+.navbar{
+    background-color: cornflowerblue;
+}
+
+
